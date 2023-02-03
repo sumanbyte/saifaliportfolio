@@ -3,7 +3,7 @@
 This project is created by me referring to my friend's design.
 https://www.figma.com/proto/TVIRQMYMjLk4X6JaGVqz6p/portfolio-shre?node-id=1%3A448&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A209
 
-View here live: [link]
+View here live: https://saifalidoss.netlify.app/
 
 ## Available Scripts
 
