@@ -13,7 +13,7 @@ const Socials = ({ verticalsocials }) => {
         <div
           className={!verticalsocials ? `social-icon` : "social-icon-vertical"}
         >
-          <a href="">
+          <a href="/">
             {" "}
             <AiFillLinkedin />
           </a>
@@ -21,7 +21,7 @@ const Socials = ({ verticalsocials }) => {
         <div
           className={!verticalsocials ? `social-icon` : "social-icon-vertical"}
         >
-          <a href="">
+          <a href="/">
             {" "}
             <SiGmail />
           </a>
@@ -29,7 +29,7 @@ const Socials = ({ verticalsocials }) => {
         <div
           className={!verticalsocials ? `social-icon` : "social-icon-vertical"}
         >
-          <a href="">
+          <a href="/">
             {" "}
             <BsTwitter />
           </a>
@@ -37,7 +37,7 @@ const Socials = ({ verticalsocials }) => {
         <div
           className={!verticalsocials ? `social-icon` : "social-icon-vertical"}
         >
-          <a href="">
+          <a href="/">
             {" "}
             <BsInstagram />
           </a>
