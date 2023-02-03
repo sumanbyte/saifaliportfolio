@@ -1,8 +1,8 @@
 import React from "react";
 import ChangeUIButton from "./ChangeUIButton";
-import Socials from "./Socials"
+import Socials from "./Socials";
 
-const About = ({verticalsocials}) => {
+const About = ({ verticalsocials }) => {
   return (
     <>
       <ChangeUIButton />
@@ -51,6 +51,7 @@ const About = ({verticalsocials}) => {
           <div className="crosswork">
             <div className="verti-bar"></div>
             <div className="hori-bar-cont">
+
               <div className="hori-bars">
                 <p>2018 </p>
                 <div className="hori-bar"></div>
@@ -59,7 +60,9 @@ const About = ({verticalsocials}) => {
               <div className="hori-bars">
                 <p>2022 </p>
                 <div className="hori-bar"></div>
-                <p>2021 &#91;Bachelor in Computer Application&#93;</p>              </div>
+                <p>2021 &#91;Bachelor in Computer Application&#93;</p>
+              </div>
+
             </div>
           </div>
         </div>

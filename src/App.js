@@ -15,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects verticalsocials={true}/>} />
+        <Route path="/resume" element={null} />
         <Route path="/about" element={<About verticalsocials={true}/>} />
       </Routes>
     <Black/>
