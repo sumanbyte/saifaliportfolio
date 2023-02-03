@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Friend's portfolio website design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created by me referring to my friend's design.
+https://www.figma.com/proto/TVIRQMYMjLk4X6JaGVqz6p/portfolio-shre?node-id=1%3A448&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A209
+
+View here live: [link]
 
 ## Available Scripts
 
