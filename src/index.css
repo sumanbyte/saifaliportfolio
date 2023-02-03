@@ -343,7 +343,7 @@ header nav {
 
 .hori-bars{
   display: flex;
-  justify-content: start;
+  justify-content: flex-end;
   padding: 5px 0;
   align-items: center;
 }
@@ -466,7 +466,7 @@ input:checked+.slider:before {
 }
 .bg-change-ui {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 7rem;
 }
 
