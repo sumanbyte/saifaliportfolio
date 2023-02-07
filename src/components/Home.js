@@ -2,12 +2,14 @@ import React from "react";
 import Socials from "./Socials";
 
 const Home = () => {
+  
+
   return (
     <>
       <div className="home-section">
         <div className="intro-saif">
           <p className="same-dist-saif int-font">Hi, I'm</p>
-          <p className="same-dist-saif int-font">Saif Ali</p>
+          <p className={`same-dist-saif int-font saifName`}>Saif Ali</p>
           <p className="research-saif int-font">
             I can &lt;&#47; Research &gt;
           </p>

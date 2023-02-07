@@ -23,9 +23,7 @@ body a {
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 .background-change-ui{
-  background-color: black;
-  height: auto;
-
+  
 }
 
 /* ********************************************** */
@@ -48,6 +46,11 @@ header {
   display: inline-block;
   width: 49%;
   text-align: center;
+}
+
+nav li a:hover{
+  color: #95DFE1;
+  transform: translateX(2);
 }
 
 header nav ul li {
@@ -382,7 +385,8 @@ div.scroll::-webkit-scrollbar{
 }
 
 .active {
-  background-color: rgb(115, 115, 235);
+  color: #95DFE1;
+  font-weight: 600;
 
 }
 
@@ -460,7 +464,8 @@ input:checked+.slider:before {
   margin: auto;
   position: sticky;
   top: 100px;
-
+  background-color: #090915;
+  height: auto;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -488,3 +493,10 @@ input:checked+.slider:before {
   margin-left: 5px;
 }
 /* css styling for the chang ui button component  */
+.red{
+  color: red;
+}
+
+.lgreen{
+  color: #95DFE1;
+}

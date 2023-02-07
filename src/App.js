@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Black from "./components/Black";
 
 function App() {
+
   return (
     <div>
 
