@@ -1,16 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppContext from "../../context/createContext";
 import Socials from "./Socials";
 
 const Home = () => {
-  
-
+  const { checked, setChecked } = useContext(AppContext)
   return (
     <>
       <div className="home-section">
         <div className="intro-saif">
-          <p className="same-dist-saif int-font">Hi, I'm</p>
+          <p className={`same-dist-saif int-font`}>Hi, I'm</p>
           <p className={`same-dist-saif int-font saifName`}>Saif Ali</p>
-          <p className="research-saif int-font">
+          <p className={`research-saif int-font`}>
             I can &lt;&#47; Research &gt;
           </p>
         </div>
@@ -113,12 +113,15 @@ const Home = () => {
             </svg>
           </div>
           <div className="change-ui">
-            <div className="change-ui-text">
-              <p>Turn into Bad UI</p>
+            <div className={`change-ui-text`}>
+              <p>Turn into Good UI</p>
             </div>
-            <div className="change-ui-btn">
-              <label className="switch">
-                <input type="checkbox" />
+            <div className="change-ui-btn" >
+              <label className="switch" >
+                <input type="checkbox" className="checks"
+                  checked={checked}
+                  onChange={e => setChecked(e.target.checked)}
+                />
                 <span className="slider round"></span>
               </label>
             </div>

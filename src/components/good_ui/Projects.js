@@ -12,7 +12,7 @@ const Projects = ({verticalsocials}) => {
       <div className="project-card">
         <div className="project-card-items">
           <div className="project-image">
-            <img src={require("../img/project-img.png")} alt="project" />
+            <img src={require("../../img/project-img.png")} alt="project" />
           </div>
           <div className="project-text">
             <p>Build a Doctor Connected App</p>
@@ -32,7 +32,7 @@ const Projects = ({verticalsocials}) => {
         </div>
         <div className="project-card-items">
           <div className="project-image">
-            <img src={require("../img/project-img.png")} alt="project" />
+            <img src={require("../../img/project-img.png")} alt="project" />
           </div>
           <div className="project-text">
             <p>Build a Doctor Connected App</p>
@@ -46,7 +46,7 @@ const Projects = ({verticalsocials}) => {
       <div className="project-card">
         <div className="project-card-items">
           <div className="project-image">
-            <img src={require("../img/project-img.png")} alt="project" />
+            <img src={require("../../img/project-img.png")} alt="project" />
           </div>
           <div className="project-text">
             <p>Build a Doctor Connected App</p>
@@ -66,7 +66,7 @@ const Projects = ({verticalsocials}) => {
         </div>
         <div className="project-card-items">
           <div className="project-image">
-            <img src={require("../img/project-img.png")} alt="project" />
+            <img src={require("../../img/project-img.png")} alt="project" />
           </div>
           <div className="project-text">
             <p>Build a Doctor Connected App</p>

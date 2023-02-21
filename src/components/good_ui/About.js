@@ -10,7 +10,7 @@ const About = ({ verticalsocials }) => {
       <div className="about-section">
         <div className="about-section-content">
           <div className="about-image">
-            <img src={require("../img/about-image.png")} alt="" />
+            <img src={require("../../img/about-image.png")} alt="" />
           </div>
           <div className="about-text scroll">
             <p>
