@@ -1,10 +1,12 @@
 import React from 'react'
 import ChangeUIButton from '../good_ui/ChangeUIButton'
+import Socials from './Bad_Socials'
 
-const Bad_Projects = () => {
+const Bad_Projects = ({verticalsocials}) => {
     return (
         <>
             <ChangeUIButton />
+            {verticalsocials && <Socials verticalsocials={verticalsocials} />}
             <div className='bad-projects'>
                 <div className="bad-project-cont">
                     <div className="bad-project">
